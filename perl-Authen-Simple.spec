@@ -2,14 +2,14 @@
 %define upstream_version 0.4
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.5
+Release:	1
 
 Summary:	Simple Authentication
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Authen/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Authen/Authen-Simple-0.5.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Accessor::Fast)
@@ -65,4 +65,5 @@ make test
 
 * Thu Oct 09 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.4-1mdv2009.1
 - initial mdv release, generated with cpan2dist
+
 
