@@ -1,6 +1,5 @@
 %define upstream_name    Authen-Simple
-%define upstream_version 0.4
-
+%define upstream_version 0.5
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.5
 Release:	1
