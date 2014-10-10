@@ -2,7 +2,7 @@
 %define upstream_version 0.5
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.5
-Release:	1
+Release:	2
 
 Summary:	Simple Authentication
 License:	GPL+ or Artistic
