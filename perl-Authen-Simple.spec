@@ -1,14 +1,14 @@
 %define upstream_name    Authen-Simple
 %define upstream_version 0.5
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.5
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Simple Authentication
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Authen/Authen-Simple-0.5.tar.gz
+Url:		https://github.com/chansen/p5-authen-simple
+Source0:	https://cpan.metacpan.org/authors/id/C/CH/CHANSEN/Authen-Simple-0.5.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
