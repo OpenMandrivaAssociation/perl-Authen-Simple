@@ -1,8 +1,7 @@
 %define upstream_name    Authen-Simple
-%define upstream_version 0.5
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.5
+Release:	5
 
 Summary:	Simple Authentication
 License:	GPL+ or Artistic
@@ -28,7 +27,7 @@ BuildArch:	noarch
 Simple and consistent framework for authentication.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -52,9 +51,7 @@ make test
 
 * Fri Feb 12 2010 Jérôme Quelin <jquelin@mandriva.org> 0.400.0-1mdv2011.0
 + Revision: 504579
-- rebuild using %%perl_convert_version
-
-* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.4-2mdv2010.0
+- rebuild using %0.5 Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.4-2mdv2010.0
 + Revision: 430263
 - rebuild
 
